@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body style="background-color: #FF6600; color: white">
+	<h1 style="color: yellow">Orçamento para Parque de YellowStone</h1>
+	<h2 style="color: yellow">Menu</h2>
+	<a href="index.html">Parque de YellowStone</a>
+	<form action="index.html">
+		<fieldset>
+			<legend style="color: black">Informações Basícas</legend>
+			<label for="">Nome</label>
+			<input type="text" name="nome">
+			<br>
+			<label for="">Sobrenome</label>
+			<input type="text" name="sobrenome">
+			<br>
+			<label for="">Telefone</label>
+			<input type="tel" name="telefone">
+			<br>
+			<label for="">Email</label>
+			<input type="email" name="email">
+			<br>
+			<label for="">Site Pessoal</label>
+			<input type="url" name="site">
+			<br>
+			<label for="">Cor Favorita</label>
+			<input type="color" name="corf">
+			<br>
+			<label for="">
+			<input type="radio" name="sex" value="Feminino">
+			Feminino</label>
+			<label for="">
+			<input type="radio" name="sex" value="Masculino">
+			Masculino</label>
+		</fieldset>
+		<fieldset>
+			<legend style="color: black">Passeio</legend>
+			<label for="">Selecione os passeios</label>
+			<br>
+			<label for="">Camping
+				<input type="checkbox" name="passeio" value="Camping">
+			</label>
+			<label for="">Geisers
+				<input type="checkbox" name="passeio" value="Geisers">
+			</label>
+			<label for="">Águas Termais
+				<input type="checkbox" name="passeio" value="Águas Termais">
+			</label>
+			<label for="">Vida Selvagem
+				<input type="checkbox" name="passeio" value="Vida Selvagem">
+			</label>
+			<br>
+			<label for="">Selecione data do passeio</label>
+			<br>
+			<label for="">Data do passeio:</label>
+			<input type="date" name="data">
+		</fieldset>
+		<fieldset>
+			<legend style="color: black">Dados da Empresa</legend>
+			<label for="">Selecione a empresa</label>
+			<select name="empresa" id="">
+				<option value="ValeSul" selected>Geiser Boy's</option>
+				<option value="ValeNorte">Grizziler .inc</option>
+			</select>
+			<label for="">Qual seu nivel de satisfação com a empresa</label>
+			<br>
+			<label for="">Ruim</label>
+			<input type="range" name="sat" min="0" max="10">
+			<label for="">Ótimo</label>
+			<br>
+			<label for="">Coloque o motivo de ter escolhido a empresa</label>
+			<br>
+			<textarea name="motivo" id="" cols="30" rows="10"></textarea>
+			<br>
+			<input type="image" src="calmaria.gif" name="image" width="300" height="300">
+			<br>
+			<input type="submit">
+		</fieldset>
+	</form>
+</body>
+</html>
