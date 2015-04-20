@@ -1,0 +1,51 @@
+body{
+	background-color: #FF6600;
+	background-image: url(background-texture.png);
+}
+h1{
+	color: yellow;
+}
+h2,h3,h4,h5,h6{
+	color: #ede321;
+}
+hr{
+	color: white;
+}
+ol,ul{
+	color: yellow;
+}
+ol p, ul p{
+	color: white;
+}
+li h2,li h3,li h4,li h5,li h6{
+	color: #FFF582;
+}
+a{
+	color: white;
+}
+legend{
+	color: black;
+}
+pre{
+	background-color: white;
+	color: orange;
+	border-style: solid;
+	border-color: red;
+	border-width: 2px;
+	text-shadow: 3px 3px 10px black;
+}
+.texto{
+	background-color: white;
+	color: black;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	text-align: justify;
+}
+.texto p{
+	color: black;
+}
+#comImagem{
+	background-size: contain;
+	background-image: url(geiser.jpg);
+}
