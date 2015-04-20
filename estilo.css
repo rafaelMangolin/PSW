@@ -1,12 +1,32 @@
+header{
+	background-color: #E67919;
+	padding: 2px;
+	background-image: url(background-header-texture.png);
+	text-align: center;
+}
+nav{
+	width: 180px;
+	height: 100%;
+	background-color: #F0974A;
+	float: left;
+	line-height: 30px;
+}
 body{
 	background-color: #FF6600;
 	background-image: url(background-texture.png);
+	margin: 0px;
+	height: 100%;
+}
+p{
+	margin: 0;
 }
 h1{
 	color: yellow;
+	margin: 0;
 }
 h2,h3,h4,h5,h6{
 	color: #ede321;
+	margin: 0;
 }
 hr{
 	color: white;
@@ -48,4 +68,13 @@ pre{
 #comImagem{
 	background-size: contain;
 	background-image: url(geiser.jpg);
+}
+.yellowstone{
+	color: white;
+	font-size: 64;
+	background-image: url(geiser.jpg);
+	height: 250px;
+	background-position: center top;
+	background-size: 100% 400px;
+	margin: 0;
 }
